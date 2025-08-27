@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Juan Sebastián Castaño Arroyave">
+  <meta name="description" content="Educación de Juan Sebastián Castaño Arroyave">
+  <meta name="keywords" content="Educación, estudios, Juan Castaño, hoja de vida">
+  <title>Educación - Juan Sebastián Castaño</title>
+</head>
+<body>
+  <!-- Logo y Título -->
+  <header>
+    <img src="logo.png" alt="Logo" width="80">
+    <h1>Hoja de Vida</h1>
+  </header>
+
+  <!-- Datos Personales -->
+  <h2>Datos Personales</h2>
+  <h3>Juan Sebastián Castaño Arroyave</h3>
+  <h3>Fecha y lugar de nacimiento: 10/07/2005 - Manizales</h3>
+
+  <!-- Menú -->
+  <nav>
+    <a href="index.html">Inicio</a> | 
+    <a href="educacion.html">Educación</a> | 
+    <a href="experiencia.html">Experiencia</a>
+  </nav>
+
+  <!-- Educación -->
+  <h2>Educación</h2>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>Año</th>
+      <th>Institución</th>
+      <th>Lugar</th>
+      <th>¿Culminó?</th>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>Liceo Arquidiocesano de Nuestra Señora</td>
+      <td>Manizales</td>
+      <td>Sí</td>
+    </tr>
+    <tr>
+      <td>2025 (en curso)</td>
+      <td>Universidad de Manizales</td>
+      <td>Manizales</td>
+      <td>No</td>
+    </tr>
+  </table>
+
+  <!-- Formulario -->
+  <h2>Agregar Estudios</h2>
+  <form>
+    <label for="anio">Año:</label>
+    <select id="anio" name="anio">
+      <option>2022</option>
+      <option>2023</option>
+      <option>2024</option>
+      <option>2025</option>
+    </select>
+    <br><br>
+
+    <label for="institucion">Institución:</label>
+    <input type="text" id="institucion" name="institucion" required>
+    <br><br>
+
+    <label for="lugar">Lugar:</label>
+    <textarea id="lugar" name="lugar"></textarea>
+    <br><br>
+
+    <label>¿Culminó?:</label>
+    <input type="radio" name="culmino" value="sí"> Sí
+    <input type="radio" name="culmino" value="no"> No
+    <br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>Contacto: jtatan0710@gmail.com | Tel: 311 6474390</p>
+    <p>Dirección: Vereda el arenillo, finca Nápoles</p>
+  </footer>
+</body>
+</html>
